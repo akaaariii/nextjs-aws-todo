@@ -2,14 +2,14 @@ import React from 'react';
 import Head from '../components/templates/head';
 import Navigation from '../components/templates/navigations';
 
-const Index: React.FC = () => {
+const Todo = () => {
   return (
     <div>
-      <Head title="Index page" />
+      <Head title="todo" />
       <Navigation />
-      <p>Hello world</p>
-      <p>Index</p>
+      <h2>Todo with amplify</h2>
     </div>
   );
 };
-export default Index;
+
+export default Todo;
