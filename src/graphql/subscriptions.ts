@@ -8,8 +8,6 @@ export const onCreateTodo = /* GraphQL */ `
       id
       description
       isDone
-      createdAt
-      updatedAt
     }
   }
 `;
@@ -19,8 +17,6 @@ export const onUpdateTodo = /* GraphQL */ `
       id
       description
       isDone
-      createdAt
-      updatedAt
     }
   }
 `;
@@ -30,8 +26,6 @@ export const onDeleteTodo = /* GraphQL */ `
       id
       description
       isDone
-      createdAt
-      updatedAt
     }
   }
 `;
